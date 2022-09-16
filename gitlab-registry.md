@@ -314,7 +314,7 @@ storage:
   filesystem:
     rootdirectory: /var/lib/registry
 http:
-  addr: localhost:5000
+  addr: :5000
   headers:
     X-Content-Type-Options: [nosniff]
 auth:
