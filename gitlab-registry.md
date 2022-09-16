@@ -395,6 +395,7 @@ Follow the [Official documentation](http://docs.gitlab.com/ce/administration/con
 > 
 > $ sudo chown git:git /home/git/gitlab/config/registry-auth.key
 >```
+> **_NOTE:_**  For Gitlab provided by Arch Linux distro, the location is /usr/share/webapps/gitlab/config and the file permissions should be the same as adjacent files have
 
 You can now **restart GitLab**.
 
